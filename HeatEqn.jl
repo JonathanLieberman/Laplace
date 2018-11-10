@@ -46,6 +46,7 @@ plot(sol)
 # Create animation
 anim = @animate for i=1:nsteps
     plot(x,sol(tsteps[i]), ylim = [minimum(u0), maximum(u0)], legend = false)
+    ylabel!("Temperature")
     title!(titl)
 end
 
