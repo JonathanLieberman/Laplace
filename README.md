@@ -4,7 +4,7 @@ Sample Julia code to generate a .gif showing heat dispersion in a single dimensi
 # Quickstart
 1. Install `DifferentialEquations`, `Plots`, and `LinearAlgebra`
 2. Open Julia and change to the appropriate directory
-3. Run HeatEqn.jl
+3. Run `HeatEqn.jl`
 
 # Background
 Temperature follows a famous partial differential equation called Laplace's Equation. Laplace's equation can be simulated using finite element modelling and linear algebra.
