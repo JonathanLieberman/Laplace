@@ -11,4 +11,6 @@ Temperature follows a famous partial differential equation called Laplace's Equa
 
 Julia's `DifferentialEquations` suite makes modelling finite elements very easy. This code helps visualize what happens to the temperature within an object as time passes.
 
+The option of `wrp` in the script gives the option for the temperature dispersion to wrap along the x-axis. This prevents heat from leaving the system if the element's edges are touching (i.e. a thin ring)
+
 This code was produced using open source software for educational purpose. Feel free to use and adapt this code as needed or submit changes.
